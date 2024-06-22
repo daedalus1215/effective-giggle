@@ -41,7 +41,7 @@ def save_articles(file_path, articles):
 
 def main():
     # Main function to fetch RSS feed and manage articles
-    rss_url = 'https://podcastfeeds.nbcnews.com/RPWEjhKq'  
+    rss_url = 'rss.xml'  
     file_path = 'articles.json'
     
     # Load existing articles
